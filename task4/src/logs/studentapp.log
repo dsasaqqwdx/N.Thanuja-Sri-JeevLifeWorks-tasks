@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-06-25T15:20:26.981882600Z</date>
+  <millis>1750864826981</millis>
+  <nanos>882600</nanos>
+  <sequence>0</sequence>
+  <logger>util.LoggerUtil</logger>
+  <level>INFO</level>
+  <class>service.StudentServiceImpl</class>
+  <method>updateStudent</method>
+  <thread>1</thread>
+  <message>Student updated: Student [id=202, name=Bob Smith, email=bob.smith@example.com, course=English]</message>
+</record>
+<record>
+  <date>2025-06-25T15:20:27.043882300Z</date>
+  <millis>1750864827043</millis>
+  <nanos>882300</nanos>
+  <sequence>1</sequence>
+  <logger>util.LoggerUtil</logger>
+  <level>WARNING</level>
+  <class>service.StudentServiceImpl</class>
+  <method>deleteStudent</method>
+  <thread>1</thread>
+  <message>Student not found for delete.</message>
+</record>
+</log>
